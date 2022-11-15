@@ -1,0 +1,27 @@
+.button {
+    height: 35px;
+    background: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 3px rgba(0,0,0, .2), 0 -0.2px 1px rgba(0,0,0, .2);
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.button:hover {
+    box-shadow: 0 2px 8px rgba(0,0,0, .3);
+}
+
+.button:active {
+    box-shadow: 0 2px 3px rgba(0,0,0, .2);
+}
+
+.small {
+    font-size: 14px;
+    width: 90px;
+}
+
+.medium {
+    width: 100%;
+    font-size: 18px;
+}

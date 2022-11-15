@@ -1,0 +1,21 @@
+.form {
+    width: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.formTitle {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.authData {
+    background-color: rgba(0, 204, 255, 0.2);
+    height: 40px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    margin-bottom: 20px;
+}
